@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5" />
+      <stop offset="100%" stop-color="#0ea5e9" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#0f172a" flood-opacity="0.25" />
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="url(#bg)" />
+  <g filter="url(#shadow)">
+    <!-- Wallet Card -->
+    <rect x="96" y="144" width="320" height="224" rx="36" fill="#ffffff" />
+    <path d="M96 200h320" stroke="#f1f5f9" stroke-width="6" />
+    <!-- Taka Symbol in Center -->
+    <text x="256" y="278" font-family="'Hind Siliguri', 'Noto Sans Bengali', sans-serif" font-size="108" font-weight="700" fill="#4f46e5" text-anchor="middle" dominant-baseline="middle">৳</text>
+    <!-- Growth Indicator dots -->
+    <circle cx="360" cy="180" r="10" fill="#10b981" />
+  </g>
+</svg>

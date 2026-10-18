@@ -1,0 +1,6 @@
+{
+  "name": "ব্যক্তিগত খরচ - Personal Expense Tracker",
+  "description": "একটি নির্ভরযোগ্য, offline-first, প্রফেশনাল বাংলা পার্সোনাল এক্সপেন্স ট্র্যাকার। বাজেট, আর্থিক লেনদেন, বিস্তারিত রিপোর্ট এবং সুরক্ষিত ব্যাকআপ।",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
